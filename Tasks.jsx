@@ -20,14 +20,17 @@ function Tasks() {
   function handleAddButton() {
     if (inputTask.trim()) {
       let priority = prompt('Enter the priority of your task');
-      let date = prompt('Enter the limit date of the task');
+      let day = prompt('Enter the day');
+      let month = prompt('Enter the month');
+      let year = prompt('Enter the year');
+
       let newTask = {
         id: nextId,
         title: `task ${nextId}`,
         description: inputTask,
         priority: priority,
         status: 'in progress',
-        dateLim: date
+        dateLim:`${day}/${month}/${year}`
       };
       setNextId(nextId + 1);
       setInputTask('');
