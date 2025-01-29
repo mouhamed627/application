@@ -1,0 +1,117 @@
+.App{
+    background-color: rgb(33, 18, 119);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.Login{
+    background-color: rgb(178, 74, 231);
+    width: 50vw;
+    height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+input{
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+}
+button{
+    margin-top: 30px;
+    width: 25%;
+    height:35px;
+}
+#sign {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 10, 1, 0.611);
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  #signContent {
+    background-color: white;
+    text-align: center;
+    width: 85%;
+    letter-spacing: 4px;
+    box-shadow: 5px 9px 7px rgb(6, 6, 241);
+    
+  }
+  .Enabled{
+    background-color: pink;
+    color: green;
+    letter-spacing: 3px;
+    cursor: pointer;
+  }
+  .Disabled{
+    background-color: gray;
+    color: red;
+    font-weight: 800;
+    cursor: not-allowed;
+  }
+  .Tasks{
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 200, 222);
+    
+  }
+
+
+h1 {
+    text-align: center;
+    color: #054f24;
+}
+table{
+  text-align: center;
+  margin-top: 40px;
+  width: 80%;
+  margin-left: 10%;
+
+}
+tr{
+  font-size: x-large;
+}
+
+input{
+  margin-left: 15%;
+}
+td {
+  padding: 0; 
+  max-height: 50px;
+}
+
+.Delete,.Update{
+  width: 100%; 
+  padding: 10px; 
+  font-size: 16px; 
+  text-align: center; 
+}
+#Add{
+  width: 150px;
+}
+#Add:hover{
+  letter-spacing: 3px;
+  transition-duration: 500ms;
+  background-color: pink;
+}
+.Delete:hover{
+  background-color: red;
+}
+.Update:hover{
+  background-color: greenyellow;
+}
